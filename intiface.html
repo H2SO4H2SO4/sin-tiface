@@ -1,0 +1,62 @@
+<!-- You might want to add additional HTML elements to ST.
+    It's good practice to separate it out from your code -->
+
+  <script lang="javascript" 
+   src="https://cdn.jsdelivr.net/npm/buttplug@3.0.0/dist/web/buttplug.min.js">
+ </script>
+
+<div class="example-extension-settings">
+	<div class="inline-drawer">
+
+
+		<div class="inline-drawer-toggle inline-drawer-header">
+			<b>Sin-tiface NSFW</b>
+			<div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+		</div>
+		<div class="inline-drawer-content">
+			<div class="example-extension_block flex-container">
+				<input id="intiface_button" class="menu_button" type="submit" value="Start vibrating" />
+			</div>
+
+			<label for="intiface_initial_delay">Tempo <span id="intiface_initial_delay_value"></span>
+			</label>
+			<input id="intiface_initial_delay" type="range" min="10" max="100" step="10" value="{{initial_delay}}" />
+
+			<label for="intiface_repeat">Repeat <span id="intiface_repeat_value"></span>
+			 times</label>
+			<input id="intiface_repeat" type="range" min="1" max="100" step="1" value="{{repeat}}" />
+
+
+			<label for="intiface_melody" id="intiface_melody_label">Melody:</label>
+
+			<textarea rows="3" class="text_pole textarea_compact" id="intiface_melody"
+				style="height: 32px;">{{melody}}</textarea>
+
+			<label for="intiface_magic_words1" id="intiface_magic_words1_label">Start a new vibration if the character
+				uses <b>one</b> of these comma-separated words or phrases:</label>
+
+			<textarea rows="3" class="text_pole textarea_compact" id="intiface_magic_words1"
+				style="height: 32px;">{{magic_words1}}</textarea>
+
+			<label for="intiface_magic_words2" id="intiface_magic_words2_label"><b>and</b> character uses <b>one</b> of
+				these comma-separated words or phrases:</label>
+
+			<textarea rows="3" class="text_pole textarea_compact" id="intiface_magic_words2"
+				style="height: 32px;">{{magic_words2}}</textarea>
+
+			<label for="intiface_magic_words3" id="intiface_magic_words3_label"><b>and</b> character uses <b>one</b> of
+				these comma-separated words or phrases:</label>
+
+			<textarea rows="3" class="text_pole textarea_compact" id="intiface_magic_words3"
+				style="height: 32px;">{{magic_words3}}</textarea>
+
+			<label for="intiface_magic_words4" id="intiface_magic_words4_label"><b>and</b> character is <b>not</b> using
+				<b>any</b> of these comma-separated words or phrases:</label>
+
+			<textarea rows="3" class="text_pole textarea_compact" id="intiface_magic_words4"
+				style="height: 32px;">{{magic_words4}}</textarea>
+
+			<hr class="sysHR" />
+		</div>
+	</div>
+</div>

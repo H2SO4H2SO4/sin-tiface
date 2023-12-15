@@ -1,0 +1,12 @@
+{
+    "display_name": "Sin-tiface NSFW",
+    "loading_order": 9,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "H2SO4",
+    "version": "1.0.0",
+    "homePage": "pornhub"
+}
+
