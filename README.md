@@ -3,7 +3,7 @@
 This is a NSFW Silly Tavern extension for intiface.
 ## Features
 
-You can compose a melody that is playeed by your vibrator.
+You can compose a melody that is played by your vibrator.
 
 ## Installation and Usage
 
